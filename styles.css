@@ -1,0 +1,25 @@
+body {
+  background: rgb(87, 207, 244);
+  color: #fff;
+  font-family: sans-serif;
+  margin: 0;
+  padding-top: 5em;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.twitter-share, .facebook-share {
+  background: #fff;
+  color: rgb(87, 207, 244);
+  cursor: pointer;
+  display: inline-block;
+  padding: 1em 2em;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  
+  &:hover {
+    position: relative;
+    top: -1px;
+  }
+}
